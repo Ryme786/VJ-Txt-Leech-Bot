@@ -1,5 +1,6 @@
-# Don't Remove Credit Tg - @learnmaterobot 
-
+# Don't Remove Credit Tg - @VJ_Botz
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Ask Doubt on telegram @KingVJ01
 
 import os
 import re
@@ -102,7 +103,7 @@ async def upload(bot: Client, m: Message):
     
     
 
-    await editable.edit("📥 UPLOADED 𝐁𝐘 ➤\n\n𝗘𝗴 » `@irymes`")
+    await editable.edit("📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 ➤\n\n𝗘𝗴 » `𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜`")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -164,8 +165,8 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[📽️] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}.mkv \n\n**📚𝐁𝐀𝐓𝐂𝐇 𝗡𝗔𝗠𝗘 ➤**  **{raw_text0}**\n\n📥 UPLOADED 𝗕𝗬 ** ➤**『{raw_text3}』**\n\n━━━━━━━━✦@PRAYAS_WBJEE❤️✦━━━━━━━━'
-                cc1 = f'**[📁] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭} .mkv \n\n**📚𝐁𝐀𝐓𝐂𝐇 𝗡𝗔𝗠𝗘 ➤**  **{raw_text0}**\n\n📥 UPLOADED 𝗕𝗬 ** ➤**『{raw_text3}』**\n\n━━━━━━━━✦@PRAYAS_WBJEE❤️✦━━━━━━━━'
+                cc = f'**[📽️] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}.mkv \n\n**📚𝐁𝐀𝐓𝐂𝐇 𝗡𝗔𝗠𝗘 ➤**  **{raw_text0}**\n\n📥 𝗘𝗫𝗧𝗥𝗔𝗖𝗧𝗘𝗗 𝗕𝗬 ** ➤**『{raw_text3}』**\n\n━━━━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━━━'
+                cc1 = f'**[📁] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭} .mkv \n\n**📚𝐁𝐀𝐓𝐂𝐇 𝗡𝗔𝗠𝗘 ➤**  **{raw_text0}**\n\n📥 𝗘𝗫𝗧𝗥𝗔𝗖𝗧𝗘𝗗 𝗕𝗬 ** ➤**『{raw_text3}』**\n\n━━━━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━━━'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -191,7 +192,7 @@ async def upload(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⥥ 🇵🇸⬇️⬇️... »**\n\n**📝Name »** `{name}\n❄Quality » {raw_text2}`\n\n**🔗URL »** `{url}`"
+                    Show = f"**⥥ 🇩🇴🇼🇳🇱🇴🇦🇩🇮🇳🇬⬇️⬇️... »**\n\n**📝Name »** `{name}\n❄Quality » {raw_text2}`\n\n**🔗URL »** `{url}`"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
