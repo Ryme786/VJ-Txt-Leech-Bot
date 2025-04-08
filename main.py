@@ -42,7 +42,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["as"]))
+@bot.on_message(filters.command(["s"]))
 async def upload(bot: Client, m: Message):
     editable = await m.reply_text('🗣𝗦𝗘𝗡𝗗 𝗠𝗘 𝗧𝗫𝗧 𝗙𝗜𝗟𝗘 ⚡️')
     input: Message = await bot.listen(editable.chat.id)
@@ -164,7 +164,7 @@ async def upload(bot: Client, m: Message):
             try:  
                 
                 cc = f'**[📽️] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}.mkv \n\n**📚𝐁𝐀𝐓𝐂𝐇 𝗡𝗔𝗠𝗘 ➤**  **{raw_text0}**\n\n📥 UPLOADED 𝗕𝗬 ** ➤**『{raw_text3}』**\n\n━━━━━━━━✦@PRAYAS_WBJEE❤️✦━━━━━━━━'
-                cc1 = f'**[📁] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭} .mkv \n\n**📚𝐁𝐀𝐓𝐂𝐇 𝗡𝗔𝗠𝗘 ➤**  **{raw_text0}**\n\n📥 𝗘𝗫𝗧𝗥𝗔𝗖𝗧𝗘𝗗 𝗕𝗬 ** ➤**『{raw_text3}』**\n\n━━━━━━━━✦@PRAYAS_WBJEE❤️✦━━━━━━━━'
+                cc1 = f'**[📁] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭} .mkv \n\n**📚𝐁𝐀𝐓𝐂𝐇 𝗡𝗔𝗠𝗘 ➤**  **{raw_text0}**\n\n📥 UPLOADED 𝗕𝗬 ** ➤**『{raw_text3}』**\n\n━━━━━━━━✦@PRAYAS_WBJEE❤️✦━━━━━━━━'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -190,7 +190,7 @@ async def upload(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⥥ 🇩🇴🇼🇳🇱🇴🇦🇩🇮🇳🇬⬇️⬇️... »**\n\n**📝Name »** `{name}\n❄Quality » {raw_text2}`\n\n**🔗URL »** `{url}`"
+                    Show = f"**⥥ ☢️👀🖇️⬇️⬇️... »**\n\n**📝Name »** `{name}\n❄Quality » {raw_text2}`\n\n**🔗URL »** `{url}`"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -207,7 +207,8 @@ async def upload(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**🔰𝐃𝐎𝐍𝐄 ALSO JOIN @PRAYAS_WBJEE🔰**")
+    await m.reply_text("** 🗣️Sir ji complete ho gya✅💫
+                          🌼ALSO JOIN @PRAYAS_WBJEE🌼**")
 
 
 bot.run()
